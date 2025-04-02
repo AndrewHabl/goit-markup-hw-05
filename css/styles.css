@@ -673,12 +673,15 @@ transform: translate(-50%, -50%);
     position: relative;
 }
 
-.modal-label {
+.modal-label, .modal-text-label{
     font-weight: 400;
         font-size: 12px;
         line-height: 1.16667;
         letter-spacing: 0.04em;
         color: #8e8f99;
+        display: block;
+        margin-bottom: 4px;
+        text-align: left;
 }
 
 .modal-input-icon {
@@ -719,4 +722,27 @@ transform: translate(-50%, -50%);
     color: #fff;
     margin-top: auto;
     align-self: center;
+}
+
+.modal-text-area{
+    height: 120px;
+    width: 100%;
+    padding-left: 16px;
+    padding-top: 8px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    resize: none;
+}
+
+.modal-text-area:focus {
+    border-color: #404bbf;
+    outline: none;
+}
+
+.modal-text-area::placeholder{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
 }
