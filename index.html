@@ -492,6 +492,7 @@
         </div>
       </div>
     </footer>
+
     <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
@@ -539,10 +540,22 @@
             ></textarea>
           </div>
           <div class="modal-check">
-            <label class="check-lab" for="modal-check-in"
-              >I accept the terms and conditions of the Privacy Policy</label
-            >
-            <input class="check-in" type="checkbox" name="modal-check-in" />
+            <input
+              class="check-in"
+              type="checkbox"
+              id="policy"
+              name="modal-check-in"
+              value="true"
+            />
+            <label class="check-lab" for="modal-check-in">
+              <span class="check-lab-check">
+                <svg class="check-lab-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-true"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
           </div>
           <button class="modal-btn">Send</button>
         </div>
