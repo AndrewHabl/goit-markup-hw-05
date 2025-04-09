@@ -706,11 +706,7 @@ padding: 72px 24px 24px;
     --modal-title-color: #2E2F42;
 }
 
-.modal-items{
-    /* padding-top: 72px;
-    padding-right: 24px;
-    padding-bottom: 24px;
-    padding-left: 24px; */
+.modal-form{
     display: flex;
     flex-direction: column;
 }
