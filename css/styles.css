@@ -600,6 +600,11 @@ padding: 32px 0;
         align-items: center;
 }
 
+.subscribe-form {
+    gap: 24px;
+    display: flex;
+}
+
 /*         footer           */
 
 /*         modal          */
