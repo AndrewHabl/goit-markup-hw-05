@@ -605,6 +605,9 @@ padding: 32px 0;
     display: flex;
 }
 
+.footer-label {
+    display: flex;
+}
 /*         footer           */
 
 /*         modal          */
