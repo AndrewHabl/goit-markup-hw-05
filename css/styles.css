@@ -719,15 +719,15 @@ padding: 72px 24px 24px;
     border-radius: 4px;
 }
 
-.modal-input-div{
-    padding-bottom: 8px;
+.input-block{
+    margin-bottom: 8px;
     position: relative;
 }
 
 .modal-label, .modal-text-label{
     font-weight: 400;
         font-size: 12px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;
         display: block;
