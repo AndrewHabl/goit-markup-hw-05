@@ -835,13 +835,6 @@ padding: 72px 24px 24px;
             color: #4d5ae5;
         }
     
-        span {
-            margin-right: 8px;
-            width: 16px;
-            height: 16px;
-            border-radius: 2px;
-                border: 1px solid rgba(46, 47, 66, 0.4);
-        }
 }
 
 .check-lab-check {
@@ -864,6 +857,7 @@ padding: 72px 24px 24px;
 input[type="checkbox"]:checked+label .check-lab-check {
     background-color: #404bbf;
     border: none;
+    fill: #F4F4FD;
 }
 
 input[type="checkbox"]:checked+label .check-lab-check .check-lab-icon {
