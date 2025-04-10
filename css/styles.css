@@ -820,21 +820,19 @@ padding: 72px 24px 24px;
 }
 
 .check-lab{
-    font-weight: 400;
+        font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;
-        display: flex;
+        /* display: flex; */
         align-items: center;
-
         a {
             line-height: 1.33;
             text-decoration: underline;
             text-decoration-skip-ink: none;
             color: #4d5ae5;
         }
-    
 }
 
 .check-lab-check {
@@ -876,6 +874,4 @@ input[type="checkbox"]:checked+label .check-lab-check .check-lab-icon {
 .privacy-link {
     text-decoration: underline;
     color: #4d5ae5;
-        white-space: nowrap;
-        display: inline;
 }
