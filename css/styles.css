@@ -782,6 +782,7 @@ padding: 72px 24px 24px;
     color: #fff;
     margin-top: auto;
     align-self: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text-area{
@@ -840,6 +841,30 @@ padding: 72px 24px 24px;
             border-radius: 2px;
                 border: 1px solid rgba(46, 47, 66, 0.4);
         }
+}
+
+.check-lab-check {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input[type="checkbox"]:checked+.check-lab-check .check-lab-icon {
+    fill: #fff;
+}
+
+.check-lab-icon {
+    fill: transparent;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check {
