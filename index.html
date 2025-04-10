@@ -563,7 +563,22 @@
             ></textarea>
           </div>
           <div class="modal-check">
-            <input
+            <label class="check-lab">
+              <input
+                class="visually-hidden"
+                type="checkbox"
+                id="user-privacy"
+                name="user-privacy"
+              />
+              <span class="check-lab-check">
+                <svg class="check-lab-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-true"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
+            <!-- <input
               class="check-in visually-hidden"
               type="checkbox"
               id="user-privacy"
@@ -571,12 +586,6 @@
               value="true"
             />
             <label class="check-lab" for="user-privacy">
-              <!-- <input
-                class="visually-hidden"
-                type="checkbox"
-                id="user-privacy"
-                name="user-privacy"
-              /> -->
               <span class="check-lab-check">
                 <svg class="check-lab-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-true"></use>
@@ -584,26 +593,8 @@
               </span>
               I accept the terms and conditions of the
               <a href="">Privacy Policy</a>
-            </label>
+            </label> -->
           </div>
-          <!-- <div class="modal-check">
-            <input
-              class="check-in"
-              type="checkbox"
-              id="user-policy"
-              name="user-policy"
-              value="true"
-            />
-            <label class="check-lab" for="user-policy">
-              <span class="check-lab-check">
-                <svg class="check-lab-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-true"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
-            </label>
-          </div> -->
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
