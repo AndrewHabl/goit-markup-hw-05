@@ -845,12 +845,12 @@ padding: 72px 24px 24px;
 }
 
 .check-lab-check {
+    display: inline-flex;
     margin-right: 8px;
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     background-color: transparent;
@@ -862,11 +862,11 @@ padding: 72px 24px 24px;
 }
 
 input[type="checkbox"]:checked+.check-lab-check .check-lab-icon {
-    fill: #fff;
+    fill: #F4F4FD;
 }
 
 input[type="checkbox"]:checked+.check-lab-check {
-    background-color: var(--accent-color);
+    background-color: #404bbf;
     border: none;
 }
 
@@ -878,3 +878,7 @@ input[type="checkbox"]:checked+.check-lab-check {
 .modal-check {
     margin-bottom: 24px;
 }
+
+.privacy-link {
+    text-decoration: underline;
+    color: #4d5ae5;}
