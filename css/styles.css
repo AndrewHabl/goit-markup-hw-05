@@ -506,13 +506,14 @@ padding: 32px 0;
     margin-bottom: 16px;
 }
 
-.footer-soc-link-sub {
+/* .footer-soc-link-sub {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-}
+    margin-bottom: 16px;
+} */
 
 .footer-soc-links-list {
     display: flex;
@@ -554,16 +555,11 @@ padding: 32px 0;
 }
 
 .footer-sub{
-    /* width: 453px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; */
     height: 80px;
     width: 100%;
     max-width: 453px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
     margin-left: 80px;
 }
 
