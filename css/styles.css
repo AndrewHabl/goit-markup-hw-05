@@ -875,4 +875,7 @@ input[type="checkbox"]:checked+label .check-lab-check .check-lab-icon {
 
 .privacy-link {
     text-decoration: underline;
-    color: #4d5ae5;}
+    color: #4d5ae5;
+        white-space: nowrap;
+        display: inline;
+}
