@@ -835,6 +835,7 @@ padding: 72px 24px 24px;
 }
 
 .checkbox-icon {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 16px;
@@ -876,4 +877,8 @@ input[type="checkbox"]:checked+label .icon-checkbox {
 .privacy-link {
     text-decoration: underline;
     color: #4d5ae5;
+}
+
+.label-text {
+    display: inline;
 }
